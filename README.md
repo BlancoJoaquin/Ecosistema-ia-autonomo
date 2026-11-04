@@ -27,7 +27,7 @@ Sistema end-to-end que recibe consultas de clientes, las clasifica con Claude us
 | [`docs/guion_video_demo.md`](docs/guion_video_demo.md) | Guion del video de 3 minutos |
 
 ## Enlaces obligatorios
-- Base de datos Airtable (solo lectura): **https://airtable.com/invite/l?inviteId=invHEOURiJdfmiBfN&inviteToken=c8a7986aee18656f3656a9d94b6e9a7cccdb49baa256a4c14a7d61f6210320a7&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts**
+- Base de datos Airtable (solo lectura): https://airtable.com/appnarTnPFgVG0clv/shrhuFfCuBAid0Ul4
 - Video demo (3 min): **https://youtu.be/p4vDlWcKnEI**
 
 ## Cumplimiento de requisitos
