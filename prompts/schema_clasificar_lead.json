@@ -1,0 +1,58 @@
+{
+  "name": "clasificar_lead",
+  "description": "Registra la clasificación del lead y el borrador de respuesta para revisión humana.",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "categoria": {
+        "type": "string",
+        "enum": [
+          "VIP",
+          "Estandar",
+          "Descartar"
+        ]
+      },
+      "puntaje": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "urgencia": {
+        "type": "string",
+        "enum": [
+          "alta",
+          "media",
+          "baja"
+        ]
+      },
+      "servicio_interes": {
+        "type": "string"
+      },
+      "resumen": {
+        "type": "string",
+        "description": "Resumen de la consulta en máximo 2 frases."
+      },
+      "motivo": {
+        "type": "string",
+        "description": "Justificación breve de la categoría y el puntaje."
+      },
+      "asunto_respuesta": {
+        "type": "string"
+      },
+      "borrador_respuesta": {
+        "type": "string",
+        "description": "Texto del email. Vacío si la categoría es Descartar."
+      }
+    },
+    "required": [
+      "categoria",
+      "puntaje",
+      "urgencia",
+      "servicio_interes",
+      "resumen",
+      "motivo",
+      "asunto_respuesta",
+      "borrador_respuesta"
+    ]
+  }
+}
